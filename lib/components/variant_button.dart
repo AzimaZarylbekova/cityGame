@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import '../models/suroo.dart';
 
+// ignore: camel_case_types
 class variantButton extends StatelessWidget {
   const variantButton({
     Key? key,

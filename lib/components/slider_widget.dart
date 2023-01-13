@@ -1,6 +1,7 @@
 import 'package:cabakusa_flatter/constants/app_colors.dart';
 import 'package:flutter/material.dart';
 
+// ignore: camel_case_types
 class sliderWidget extends StatelessWidget {
   const sliderWidget({
     Key? key,

@@ -50,7 +50,6 @@ class HomePage extends StatelessWidget {
                 crossAxisCount: 2,
               ),
               itemBuilder: (context, index) {
-                final item = continents[index];
                 return ContainentsCard(
                   item: continents[index],
                   onTap: () {

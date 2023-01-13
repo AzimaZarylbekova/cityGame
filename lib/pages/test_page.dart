@@ -7,11 +7,13 @@ import 'package:cabakusa_flatter/models/suroo.dart';
 import 'package:flutter/material.dart';
 
 class TestPage extends StatefulWidget {
-  const TestPage({Key? key, required this.suroo, required this.item}) : super(key: key);
+  const TestPage({Key? key, required this.suroo, required this.item})
+      : super(key: key);
   final List<Suroo> suroo;
   final Continents item;
 
   @override
+  // ignore: library_private_types_in_public_api
   _TestPageState createState() => _TestPageState();
 }
 
